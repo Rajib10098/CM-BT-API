@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
 
-            fetch('https://www.googleapis.com/blogger/v3/blogs/6002919485693520244/posts/search?q=thefatrat&key=AIzaSyDM7PgWDnsmjmusZ1K7sfoeBQCcOSHkLmA').then((response) => response.json()).then((data) => {
+            fetch('https://www.googleapis.com/blogger/v3/blogs/8695350722128024733/posts/search?q=thefatrat&key=AIzaSyDM7PgWDnsmjmusZ1K7sfoeBQCcOSHkLmA').then((response) => response.json()).then((data) => {
 
                 let displaySeeMore = "";
                 for (let i = 0; i < data.items.length; i++) {
